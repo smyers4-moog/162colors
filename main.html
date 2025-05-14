@@ -3,42 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>162Colors.com - Test Page</title>
+    <title>Welcome to 162colors.com</title>
     <style>
         body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
             color: #333;
         }
+        p {
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
-
-    <h1>Welcome to the 162Colors.com Test Page</h1>
-
-    <p>This is a simple test page for the website located at 162colors.com.</p>
-
-    <p>You can use this page to test various aspects of your website's hosting,
-       server configuration, or basic rendering. Feel free to modify this content
-       as needed for your specific testing purposes.</p>
-
-    <h2>Testing Information:</h2>
-    <ul>
-        <li>File: index.html (or whatever you name this file)</li>
-        <li>Purpose: Basic site connectivity and display test</li>
-        <li>Date: <span id="current-date"></span></li>
-    </ul>
-
-    <p>If you are seeing this page, your basic web server setup is likely working correctly.</p>
-
-    <script>
-        const today = new Date();
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById('current-date').textContent = today.toLocaleDateString(undefined, options);
-    </script>
-
+    <div class="container">
+        <h1>Welcome to 162colors.com!</h1>
+        <p>Discover a world of vibrant possibilities.</p>
+        <p>More content coming soon.</p>
+    </div>
 </body>
 </html>
